@@ -16,7 +16,7 @@ type Expression struct {
 }
 
 func (e *Expression) Valid() bool {
-	return len(e.Ts) == len(e.Ops)
+	return len(e.Ts) == len(e.Ops) && len(e.Ts) > 0
 }
 
 func (e *Expression) String() string {
