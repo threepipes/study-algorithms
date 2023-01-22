@@ -17,3 +17,8 @@ Tokenizer splits a given string into valid tokens expressed in the BNF.
 # Parser
 
 Parser make a tree of valid BNF by given tokens tokenized.
+
+# TODO
+
+- [ ] test parser
+- [ ] calculate the result
