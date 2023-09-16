@@ -59,4 +59,6 @@ func calc(ns []int64, ans int64) string {
 
 func main() {
 	fmt.Println("13 =", calc([]int64{8, 3, 6, 7, 13, 7, 2, 11}, 13))
+	fmt.Println("12 =", calc([]int64{8, 3, 6, 13, 7, 2, 11}, 12))
+	fmt.Println("11 =", calc([]int64{3, 6, 13, 9, 7, 5}, 12))
 }
